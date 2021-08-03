@@ -1,6 +1,6 @@
 # Samples og live loop
 
-Sample, eller et lydklipp, er et kort opptak av en lyd som kan benyttes  til å lage musikk. Sonic Pi har mange forskjellige samples man kan bruke. Et eksempel er:
+Sample, eller et lydklipp, er et kort opptak av en lyd som kan benyttes til å lage musikk. Sonic Pi har mange ulike samples man kan bruke. Et eksempel er:
 
 ```ruby
 sample :bd_haus
@@ -22,5 +22,5 @@ live_loop :dette_er_bass do
 end
 ```
 
-Lag din egen beat. Bruk flere live loops og ulike samples.
+Lag din egen beat. Bruk flere live loops og ulike samples
 

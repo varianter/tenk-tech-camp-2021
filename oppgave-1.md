@@ -1,7 +1,7 @@
 # Oppgave 1: Play og sleep
 
 ## a) Lag din første melodi
-Kopier inn koden i Sonic Pi og trykk på "Run"-knappen (spill av) øverst i høyre hjørne
+Kopier inn koden i sonic pi og trykk på "Run"-knappen (spill av) øverst i høyre hjørne
 
 ```ruby
 play 60

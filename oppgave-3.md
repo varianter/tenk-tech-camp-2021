@@ -1,20 +1,20 @@
 # Oppgave 3: Loop og if-else
 
 ## a) Spill av lyder flere ganger
-Loop, eller løkke, er en funksjon vi bruker til å omringe noe vi ønsker å spille flere ganger.
+Loop, eller løkke, er en funksjon vi bruker til å omringe noe vi ønsker å spille flere ganger, eller om og om igjen.
 
 En loop kan spilles et bestemt antall ganger eller i det uendelige. 
 Men for å lage en loop må vi si til programmet hvor loopen starter og slutter, slik at den vet hvilke lyder den skal spille av om igjen. Dette gjør vi ved å omringe koden vi vil kjøre flere ganger i en `do-end`-blokk og til slutt si hva vi vil gjøre med koden i blokken. For eksempel å kjøre den flere ganger: 
 
 ```ruby
 2.times do
-  play :c4
+  play :C4
   sleep 0.5
-  play :d4
+  play :D4
   sleep 0.5
-  play :e4
+  play :E4
   sleep 0.5
-  play :c4, release: 3
+  play :C4, release: 3
   sleep 0.5
 end
 ```
@@ -34,46 +34,46 @@ use_bpm 70
 
 loop do
   2.times do
-    play :c4
+    play :C4
     sleep 0.5
-    play :d4
+    play :D4
     sleep 0.5
-    play :e4
+    play :E4
     sleep 0.5
-    play :c4, release: 2
+    play :C4, release: 2
     sleep 0.5
   end
   
   2.times do
-    play :e4
+    play :E4
     sleep 0.5
-    play :f4
+    play :F4
     sleep 0.5
-    play :g4, release: 2
+    play :G4, release: 2
     sleep 1
   end
   
   2.times do
-    play :g4
+    play :G4
     sleep 0.25
-    play :a4
+    play :A4
     sleep 0.25
-    play :g4
+    play :G4
     sleep 0.25
-    play :f4
+    play :F4
     sleep 0.25
-    play :e4
+    play :E4
     sleep 0.5
-    play :c4, release: 2
+    play :C4, release: 2
     sleep 0.5
   end
   
   2.times do
-    play :c4
+    play :C4
     sleep 0.5
-    play :g3
+    play :G3
     sleep 0.5
-    play :c4, release: 2
+    play :C4, release: 2
     sleep 1
   end
 end
@@ -84,7 +84,7 @@ end
 
 ## b) If-else 
 
-If-else, eller hvis-ellers er et utrykk som vil kjøre en kode i en blokk hvis et utsagn er sant. Hvis ikke utsagnet er sant, så gjør den det som er skrevet i else blokken i stedet. 
+If-else, eller hvis-ellers er et utrykk som vil kjøre en kode i en blokk hvis et utsagn er sant. Hvis ikke den er sann, så gjør den det som er skrevet i else blokken i stedet. 
 
 Eks. Hvis det er brus i kjøleskapet, så ta et glass brus, ellers ta et glass vann. 
 
@@ -129,7 +129,8 @@ loop do
     sleep 0.035
     play :G6, release: 0.035
     
-    sleep 0.3  
+    sleep 0.3
+    
   end
   sleep 0.5
 end
