@@ -62,7 +62,7 @@ sleep 0.25
 play 84
 play 79
 
-# Eller hva med AHA - Take on me:  
+# Eller hva med a-ha - Take on me:  
 
 use_bpm 80
 
