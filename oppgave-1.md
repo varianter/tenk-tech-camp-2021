@@ -70,9 +70,9 @@ play :Fs4
 sleep 0.25
 play :Fs4
 sleep 0.25
-play :Fs4
-sleep 0.25
 play :D4
+sleep 0.25
+play :B3
 sleep 0.5
 play :B3
 sleep 0.5
@@ -103,6 +103,17 @@ sleep 0.5
 play :Fs4
 sleep 0.5
 play :Fs4
+sleep 0.5
+play :Fs4
+sleep 0.25
+play :E4
+sleep 0.25
+play :E4
+sleep 0.25
+play :Fs4
+sleep 0.25
+play :E4
+sleep 0.25
 
 ```
 
